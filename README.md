@@ -4,7 +4,7 @@ Solidous Management Projects
 Install Solidous Projects - Ubuntu 14.04
 ------------------------------------------------------------------
  `` adduser solidous sudo (from root)``
-`` sudo adduser solidous sudo``
+ `` sudo adduser solidous sudo``
  sudo apt-get install tomcat7
  sudo apt-get install mysql-server   (root/root)
  mysqladmin -u root -proot create solidous
