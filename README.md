@@ -1,7 +1,13 @@
 Solidous Management Projects
 ==================================================================
 
-Install Solidous Projects - Ubuntu 14.04
+Requeriments
+------------------------------------------------------------------
+> RAM: 512M or more
+> Disk: 5GB or more
+> Ubuntu 14.04, Tomcat 7 and Mysql (tested on)
+
+Install Solidous Projects
 ------------------------------------------------------------------
 Get solidous from <http://solidous.org/files/solidous.war> and put these file in your server, login into the console.  
 ``sudo adduser solidous sudo``  
