@@ -28,7 +28,7 @@ Change port 8080 to 80 in /etc/tomcat7/server.xml
 ###Install Authbind  
 ``apt-get install authbind``  
 
-#### First, set AUTHBIND=yes in /etc/default/tomcat7 file  
+First, set ``AUTHBIND=yes`` in ``/etc/default/tomcat7`` file  
 ``sudo touch /etc/authbind/byport/80``  
 ``sudo chmod 500 /etc/authbind/byport/80``  
 ``sudo chown tomcat7 /etc/authbind/byport/80``  
