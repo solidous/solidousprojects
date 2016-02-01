@@ -16,10 +16,10 @@ chown tomcat7 /home/solidous/documents
 Fix Heap Size(Example for a server with 512M physical memory 512M)
 ------------------------------------------------------------------
 echo CATALINA_OPTS="-Xms256m -Xmx256m -XX:MaxPermSize=256m" > /usr/share/tomcat7/bin/setenv.sh
-# For 1G physical memory change 256 to 512 or 768 max.
 
 By default tomcat run on port 8080. To run on port 80
 ------------------------------------------------------------------
+For 1G physical memory change 256 to 512 or 768 max.
 Change port 8080 to 80 in /etc/tomcat7/server.xml
 <Connector port="80" protocol="HTTP/1.1" connectionTimeout="20000" URIEncoding="UTF-8" redirectPort="443" />
 
