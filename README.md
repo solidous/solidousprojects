@@ -32,3 +32,13 @@ Set ``AUTHBIND=yes`` in ``/etc/default/tomcat7`` file, and then
 ``sudo touch /etc/authbind/byport/80``  
 ``sudo chmod 500 /etc/authbind/byport/80``  
 ``sudo chown tomcat7 /etc/authbind/byport/80``  
+
+Accounts
+----------------------------------------------------------------------
+>Application admin:   
+user: appAddmin  
+password: a  
+
+>User  
+user: demo  
+password: demo  
