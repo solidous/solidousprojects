@@ -3,15 +3,15 @@ Solidous Management Projects
 
 Install Solidous Projects - Ubuntu 14.04
 ------------------------------------------------------------------
-> adduser solidous sudo (from root)
-> sudo adduser solidous sudo
-> sudo apt-get install tomcat7
-> sudo apt-get install mysql-server   (root/root)
-> mysqladmin -u root -proot create solidous
-> sudo rm -r /var/lib/tomcat7/webapps/ROOT
-> sudo cp solidous.war /var/lib/tomcat7/webapps/ROOT.war
-> mkdir /home/solidous/documents
-> chown tomcat7 /home/solidous/documents
+ `` adduser solidous sudo (from root)``
+`` sudo adduser solidous sudo``
+ sudo apt-get install tomcat7
+ sudo apt-get install mysql-server   (root/root)
+ mysqladmin -u root -proot create solidous
+ sudo rm -r /var/lib/tomcat7/webapps/ROOT
+ sudo cp solidous.war /var/lib/tomcat7/webapps/ROOT.war
+ mkdir /home/solidous/documents
+ chown tomcat7 /home/solidous/documents
 
 Fix Heap Size(Example for a server with 512M physical memory 512M)
 ------------------------------------------------------------------
