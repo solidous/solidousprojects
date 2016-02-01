@@ -3,9 +3,9 @@ Solidous Management Projects
 
 Requeriments
 ------------------------------------------------------------------
-> RAM: 512M or more
-> Disk: 5GB or more
-> Ubuntu 14.04, Tomcat 7 and Mysql (tested on)
+>RAM: 512M or more  
+Disk: 5GB or more  
+Ubuntu 14.04, Tomcat 7 and Mysql (tested on)  
 
 Install Solidous Projects
 ------------------------------------------------------------------
