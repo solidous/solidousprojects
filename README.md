@@ -19,7 +19,7 @@ Get solidous from <http://solidous.org/files/solidous.war> and put these file in
 ``mkdir /home/solidous/documents``  
 ``chown tomcat7 /home/solidous/documents``  
 
-Fix Heap Size(Example for a server with 512M physical memory 512M)
+Fix Heap Size(for a server with 512M physical memory)
 ------------------------------------------------------------------
 ``echo CATALINA_OPTS="-Xms256m -Xmx256m -XX:MaxPermSize=256m" > /usr/share/tomcat7/bin/setenv.sh``  
 
