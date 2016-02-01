@@ -35,10 +35,10 @@ Set ``AUTHBIND=yes`` in ``/etc/default/tomcat7`` file, and then
 
 Accounts
 ----------------------------------------------------------------------
->Application admin:   
+>Application admin:*   
 user: appAddmin  
 password: a  
 
->User  
+>User:*  
 user: demo  
 password: demo  
