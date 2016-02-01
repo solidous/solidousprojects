@@ -22,12 +22,12 @@ Get solidous from <http://solidous.org/files/solidous.war> and put these file in
 Fix Heap Size(for a server with 512M physical memory)
 ------------------------------------------------------------------
 ``echo CATALINA_OPTS="-Xms256m -Xmx256m -XX:MaxPermSize=256m" > /usr/share/tomcat7/bin/setenv.sh``  
+For 1G physical memory change 256 to 512 or 768 max.  
 
 To run on port 80.
 ------------------------------------------------------------------
 
 ###By default tomcat run on port 8080.  
-For 1G physical memory change 256 to 512 or 768 max.*  
 Change port 8080 to 80 in /etc/tomcat7/server.xml  
 ``<Connector port="80" protocol="HTTP/1.1" connectionTimeout="20000" URIEncoding="UTF-8" redirectPort="443" />``  
 
