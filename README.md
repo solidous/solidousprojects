@@ -1,6 +1,6 @@
 Solidous Management Projects
 ==================================================================
-
+![solidous project example](http://www.solidous.org/images/solidous.png)
 Requeriments
 ------------------------------------------------------------------
 >RAM: 512M or more  
